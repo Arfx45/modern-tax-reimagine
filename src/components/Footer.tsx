@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import imperialLogo from "@/assets/imperial-logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,20 +10,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="col-span-2">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="relative w-10 h-10">
-                <div className="absolute inset-0 bg-gradient-primary rounded-lg rotate-45"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <svg viewBox="0 0 24 24" className="w-6 h-6 text-white relative z-10">
-                    <path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                  </svg>
-                </div>
-              </div>
-              <div className="flex flex-col">
-                <span className="font-bold text-lg leading-tight">IMPERIAL</span>
-                <span className="text-xs text-background/70">Tax & Accounting</span>
-              </div>
-            </div>
+            <img 
+              src={imperialLogo} 
+              alt="Imperial Tax & Accounting Services" 
+              className="h-16 w-auto mb-4 brightness-0 invert"
+            />
             <p className="text-background/70 mb-4">
               Professional tax and accounting services you can trust. 
               Helping individuals and businesses achieve financial success since 2014.
