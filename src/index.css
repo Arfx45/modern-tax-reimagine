@@ -8,52 +8,52 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 240 20% 99%;
-    --foreground: 240 15% 15%;
+    --background: 0 0% 100%;
+    --foreground: 210 15% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 240 15% 15%;
+    --card-foreground: 210 15% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 240 15% 15%;
+    --popover-foreground: 210 15% 20%;
 
-    --primary: 262 83% 58%;
+    --primary: 210 100% 25%;
     --primary-foreground: 0 0% 100%;
     
-    --primary-glow: 262 83% 68%;
-    --primary-dark: 262 70% 45%;
+    --primary-glow: 210 100% 35%;
+    --primary-dark: 210 100% 20%;
 
-    --secondary: 180 65% 52%;
+    --secondary: 25 95% 53%;
     --secondary-foreground: 0 0% 100%;
     
-    --secondary-light: 180 65% 65%;
+    --secondary-light: 25 95% 60%;
 
-    --muted: 240 10% 96%;
-    --muted-foreground: 240 8% 46%;
+    --muted: 210 10% 96%;
+    --muted-foreground: 210 8% 46%;
 
-    --accent: 262 83% 58%;
+    --accent: 25 95% 53%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 240 10% 90%;
-    --input: 240 10% 90%;
-    --ring: 262 83% 58%;
+    --border: 210 10% 90%;
+    --input: 210 10% 90%;
+    --ring: 210 100% 25%;
 
     --radius: 1rem;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(262 83% 58%) 0%, hsl(262 83% 68%) 100%);
-    --gradient-secondary: linear-gradient(135deg, hsl(180 65% 52%) 0%, hsl(180 65% 65%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(262 83% 58%) 0%, hsl(220 70% 60%) 50%, hsl(180 65% 52%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(240 20% 99%) 0%, hsl(240 15% 97%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(210 100% 25%) 0%, hsl(210 100% 35%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(25 95% 53%) 0%, hsl(25 95% 60%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(210 100% 25%) 0%, hsl(210 100% 35%) 50%, hsl(25 95% 53%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 15% 98%) 100%);
     
     /* Shadows */
-    --shadow-sm: 0 2px 8px hsl(262 83% 58% / 0.08);
-    --shadow-md: 0 4px 20px hsl(262 83% 58% / 0.12);
-    --shadow-lg: 0 8px 32px hsl(262 83% 58% / 0.16);
-    --shadow-glow: 0 0 40px hsl(262 83% 68% / 0.3);
+    --shadow-sm: 0 2px 8px hsl(210 100% 25% / 0.08);
+    --shadow-md: 0 4px 20px hsl(210 100% 25% / 0.12);
+    --shadow-lg: 0 8px 32px hsl(210 100% 25% / 0.16);
+    --shadow-glow: 0 0 40px hsl(25 95% 53% / 0.3);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
