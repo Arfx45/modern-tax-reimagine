@@ -34,3 +34,6 @@ jobs:
           publish_dir: ./dist
           publish_branch: gh-pages
           commit_message: "chore(deploy): publish site from Actions"
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          # force: true    # uncomment only if you need to overwrite branch history
