@@ -13,7 +13,7 @@ const Footer = () => {
             <img 
               src={imperialLogo} 
               alt="Imperial Tax & Accounting Services" 
-              className="h-16 w-auto mb-4 brightness-0 invert"
+              className="h-16 w-auto mb-4"
             />
             <p className="text-background/70 mb-4">
               Professional tax and accounting services you can trust. 
