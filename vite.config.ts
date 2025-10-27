@@ -16,3 +16,10 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
+// Replace REPO_NAME with your repo name, or use '/' for a user/org site root
+export default defineConfig({
+  base: '/REPO_NAME/',
+  plugins: [react()],
+  // ...existing config...
+})
